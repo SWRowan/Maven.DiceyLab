@@ -22,7 +22,7 @@ public class Simulation {
             percent *= 100;
             //percentToReturn = Math.round(percent);
             //System.out.println("" + i + " : " + bin1.getBin(i) + " : " + percentToReturn);
-            System.out.printf("%d : %d : %3f \n", i,  bin1.getBin(i), percent);
+            System.out.printf("%d : %d : %.2f \n", i,  bin1.getBin(i), percent);
         }
 
 
